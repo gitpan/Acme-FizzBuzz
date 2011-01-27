@@ -1,27 +1,24 @@
-This is Perl module Acme::FizzBuzz.
+NAME
+    Acme::FizzBuzz - The FizzBuzz program can be written shortest
 
-INSTALLATION
+SYNOPSIS
+      $ perl -MAcme::FizzBuzz -e ''
 
-Acme::FizzBuzz installation is straightforward. If your CPAN shell is set up,
-you should just be able to do
+    or
 
-    % cpan Acme::FizzBuzz
+      $ export PERL5OPT="-MAcme::FizzBuzz"
+      $ echo '' | perl
 
-Download it, unpack it, then build it as per the usual:
+DESCRIPTION
+    Acme::FizzBuzz is The FizzBuzz program can be written shortest.
 
-    % perl Makefile.PL
-    % make && make test
+AUTHOR
+    Kazuhiro Osawa <yappo {{{{}}}} shibuya {ddddoooott} pl>
 
-Then install it:
+SEE ALSO
+    <http://www.codinghorror.com/blog/archives/000781.html>
 
-    % make install
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
 
-DOCUMENTATION
-
-Acme::FizzBuzz documentation is available as in POD. So you can do:
-
-    % perldoc Acme::FizzBuzz
-
-to read the documentation online with your favorite pager.
-
-Kazuhiro Osawa
